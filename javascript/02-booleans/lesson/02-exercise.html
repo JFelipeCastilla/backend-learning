@@ -7,11 +7,11 @@
 </head>
 <body>
     <script>
-        let age = 22;
+        let age = 4;
 
-        const isHoliday = true;
+        const isHoliday = false;
 
-        if (age < 7 || age > 64) {
+        if ((age < 7 || age > 64) && !isHoliday) {
             console.log(`Discount`);
         }
         else {
