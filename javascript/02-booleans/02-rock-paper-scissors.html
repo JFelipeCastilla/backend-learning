@@ -11,7 +11,7 @@
     <button onclick=" 
         const randomNumber = Math.random();
 
-        const computerMove = '';
+        let computerMove = '';
 
         if (randomNumber >= 0 && randomNumber < 1/3) {
             computerMove = 'rock';
@@ -35,13 +35,13 @@
             result = 'You win.';
         }
 
-        alert(`You picked rock. Computer picked ${computerMove}. ${restul}`)
+        alert(`You picked rock. Computer picked ${computerMove}. ${result}`);
     ">Rock</button>
 
     <button onclick="
         const randomNumber = Math.random();
 
-        const computerMove = '';
+        let computerMove = '';
 
         if (randomNumber >= 0 && randomNumber < 1/3) {
             computerMove = 'rock';
@@ -65,13 +65,13 @@
             result = 'You lose.';
         }
 
-        alert(`You picked paper. Computer picked ${computerMove}. ${restul}`)
+        alert(`You picked paper. Computer picked ${computerMove}. ${result}`);
     ">Paper</button>
 
     <button onclick="
         const randomNumber = Math.random();
 
-        const computerMove = '';
+        let computerMove = '';
 
         if (randomNumber >= 0 && randomNumber < 1/3) {
             computerMove = 'rock';
@@ -95,7 +95,7 @@
             result = 'Tie.';
         }
 
-        alert(`You picked scissors. Computer picked ${computerMove}. ${restul}`);
+        alert(`You picked scissors. Computer picked ${computerMove}. ${result}`);
     ">Scissors</button>
 </body>
 </html>
