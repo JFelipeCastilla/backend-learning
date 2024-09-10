@@ -1,0 +1,90 @@
+<style>
+    p {
+        margin: 0;
+    }
+    .flexbox {
+        margin: 15px;
+        font-family: Arial;
+        width: 425px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(168, 168, 168);
+        height: 160px;
+        padding: 5px 15px 5px 20px;
+    }
+    .inboxes-text {
+        display: flex;
+        align-items: center;
+        height: 40px;
+    }
+    .inbox-text {
+        color: grey;
+        font-size: 18px;
+    }
+    .notification {
+        display: flex;
+        align-items: center;
+        height: 110px;
+    }
+    .notification-image {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .text-notification {
+        height: 76px;
+        flex: 1;
+        margin-left: 12px;
+    }
+    .hour-title-notification {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .title-notification {
+        font-size: 18px;
+        font-weight: bold;
+        flex: 1;
+    }
+    .hour-notification {
+        display: flex;
+        justify-content: end;
+        width: 65px;
+        color: rgb(92, 92, 92);
+    }
+
+    .feature-notification {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .description-notification {
+        color: rgb(92, 92, 92);
+    }
+</style>
+
+<div class="flexbox">
+    <div class="inboxes-text">
+        <p class="inbox-text">
+            ALL INBOXES
+        </p>
+    </div>
+    <div class="notification">
+        <img class="notification-image" src="../../img/desktop-wallpaper-iker-casillas-1920x1200-for-your-iker-casillas.jpg" alt="">
+        <div class="text-notification">
+            <div class="hour-title-notification">
+                <p class="title-notification">
+                    Chewy Promotions
+                </p>
+                <p class="hour-notification">
+                    4:48 PM
+                </p>
+            </div>
+            <p class="feature-notification">
+                Biggest sales of the year!
+            </p>
+            <p class="description-notification">
+                Hey there! We're writing to tell you about our...
+            </p>
+        </div>
+    </div>
+</div>

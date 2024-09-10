@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter text box</title>
+</head>
+<style>
+    * {
+        margin: 5px;
+    }
+    .thumbnail {
+        width: 60px;
+        height: 60px;
+        vertical-align: top;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    .chat-bar {
+        width: 14rem;
+        padding: 22px 10px;
+        border: none;
+        outline: none;
+    }
+    .tweet-button {
+        background-color: rgb(0, 139, 231);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        padding: 8px 16px;
+        transition: 0.35;
+    }
+    .tweet-button:hover {
+        background-color: rgb(2, 124, 206);
+    }
+    .tweet-button:active {
+        opacity: 0.8;
+    }
+
+</style>
+<body>
+    <img class="thumbnail" src="../../img/soldado-de-battlefield-2042_1920x1080_xtrafondos.com.jpg" alt="">
+    <input class="chat-bar" type="text" placeholder="What's happening?">
+    <button  class="tweet-button">
+        Tweet
+    </button>
+</body>
+</html>

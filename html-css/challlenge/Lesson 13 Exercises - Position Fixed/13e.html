@@ -1,0 +1,109 @@
+<style>
+    body {
+        height: 3000px;
+        font-family: Arial;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        height: 60px;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .profile {
+        display: flex;
+        margin-left: 100px;
+        align-items: center;
+        justify-content: space-between;
+        width: 160px;
+    }
+
+    .profile-photo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .photo {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .profile-name {
+        font-weight: bold;
+    }
+
+    .buttons {
+        display: flex;
+        width: 195px;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+
+    .friend-button {
+        padding: 10px 12px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(34, 112, 255);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .friend-button:hover {
+        opacity: 0.9;
+    }
+
+    .friend-button:active {
+        opacity: 0.7;
+    }
+
+    .message-button {
+        background-color: rgb(238, 238, 238);
+        border: none;
+        padding: 10px 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .message-button:hover {
+        background-color: rgb(223, 222, 222);
+    }
+
+    .message-button:active {
+        background-color: rgb(212, 212, 212);
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="profile">
+            <div class="profile-photo">
+                <img class="photo" src="../../img/soldado-de-battlefield-2042_1920x1080_xtrafondos.com.jpg" alt="">
+            </div>
+            <div class="profile-name">
+                Felipe Castilla
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="contain-friend-button">
+                <button class="friend-button">
+                    Add Friend
+                </button>
+            </div>
+            <div class="contain-friend-message">
+                <button class="message-button">
+                    Message
+                </button>
+            </div>
+        </div>
+    </div>
+</body>

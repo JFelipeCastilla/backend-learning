@@ -1,0 +1,64 @@
+<style>
+    p {
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 15px 5px;
+    }
+    .enter-input {
+        display: block;
+        background-color: #f0f0f0;
+        border: none;
+        outline: none;
+        width: 300px;
+        height: 35px;
+        padding: 5px 15px;
+        margin: 10px 5px;
+    }
+    .enter-input:hover {
+        background-color: #f8f8f8;
+    }
+    .enter-input:focus {
+        background-color: #f8f8f8;
+        box-shadow: 0 0 5px #e0e0e0;
+    }
+    button {
+        border: none;
+        cursor: pointer;
+    }
+    .request-button {
+        margin: 20px 15px 5px 5px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(250, 250, 250);
+        width: 100px;
+        height: 35px;
+    }
+    .request-button:hover {
+        opacity: 0.9;
+    }
+    .request-button:active {
+        opacity: 0.8;
+    }
+    .schedule-button {
+        width: 150px;
+        height: 38px;
+    }
+    .schedule-button:hover {
+        background-color: rgb(210, 210, 210);;
+    }
+    .schedule-button:active {
+        opacity: 0.8;
+    }
+</style>
+
+<p>
+    Request a ride now
+</p>
+<input class="enter-input" type="text" placeholder="Enter pickup location">
+<input class="enter-input" type="text" placeholder="Enter destination">
+<button class="request-button">
+    Request now
+</button>
+<button class="schedule-button">
+    Schedule for later
+</button>
